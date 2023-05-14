@@ -110,9 +110,6 @@ Contributions to Fut Trading Bot are welcome! If you encounter any issues, have 
 
 For inquiries or further information about Fut Trading Bot, please contact [your-email@example.com](mailto:abdulmueedshahbaz@gmail.com).
 
-## Demo:
-
-https://github.com/Abdul-Mueed-Shahbaz/FutTradingBot/assets/52679916/1bd52490-1ad7-4bd4-815b-5bb3a8f3d20f
 
 
 
