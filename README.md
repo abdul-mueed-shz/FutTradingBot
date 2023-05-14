@@ -11,6 +11,68 @@ Fut Trading Bot is a game-changing tool designed to enhance your trading experie
 - **Efficient Data Handling**: State management is implemented using Pinia to ensure efficient data handling within the bot.
 - **Communication with Fut Web App**: The bot establishes communication with the Fut Web App using Quasar Bridge Calls, allowing seamless message passing.
 
+## The Fut Trading Bot provides various configuration options to customize its behavior and optimize your trading strategy. Below, you will find a detailed explanation of each configuration property:
+
+### Delay Settings
+- `delayBwSearches`: The delay time (in seconds) between consecutive searches.
+- `purchaseDelayTime`: The delay time (in milliseconds) before the bot purchases a player after a successful snipe.
+- `pattern`: A custom search pattern for filtering players based on specific attributes. Currently not configured.
+
+### Rest Settings
+- `minBeforeRest`: The minimum number of searches to perform before the bot takes a rest.
+- `restDuration`: The duration (in minutes) of each rest period.
+- `minBeforeRestTimeOut`: The minimum number of searches to perform before the bot triggers a timeout during rest.
+- `restDurationTimeOut`: The duration (in minutes) of each rest period during a timeout.
+
+### Bid Prices
+- `macr`: The maximum bid price for players.
+- `micr`: The minimum bid price for players.
+
+### Buy Now Prices
+- `minb`: The minimum buy now price for players.
+- `maxb`: The maximum buy now price for players.
+
+### Additional Settings
+- `safeSniping`: Enables or disables safe sniping, which avoids risky sniping situations.
+- `reslitUnsoldItems`: Enables or disables relisting unsold items.
+- `clearSolidItems`: Enables or disables clearing solid items.
+- `playSounds`: Enables or disables playing sounds during trading activities.
+
+### Pricing Settings
+- `sellUsingFutbinPrices`: Enables or disables using Futbin prices for selling players.
+- `sendToTransferList`: Enables or disables sending purchased players to the transfer list.
+- `sendToClub`: Enables or disables sending purchased players to the club.
+- `sellPlayerPrice`: The price at which the bot sells players.
+- `buyPlayerPrice`: The price at which the bot buys players.
+
+### Purchase Info
+- `successfulPurchases`: The number of successful purchases made.
+- `failedPurchases`: The number of failed purchase attempts.
+- `activeTransfers`: The number of active transfers.
+- `soldItems`: The number of items sold.
+- `unSoldItems`: The number of unsold items.
+- `totalProfit`: The total profit earned.
+
+### Rating Filter
+- `minimumCardRating`: The minimum rating of cards to consider in searches.
+- `maximumCardRating`: The maximum rating of cards to consider in searches.
+
+### Break Settings
+- `searchesBfrBreak`: The number of searches to perform before taking a break.
+- `breakDuration`: The duration (in minutes) of each break.
+- `currentSuccessfulBreaks`: The current number of successful breaks taken.
+- `breakTimeOutId`: The identifier of the timeout during a break.
+- `secondsBfrResuming`: The remaining seconds before resuming trading.
+- `secondsBfrResumingInterval`: The interval for updating the remaining seconds before resuming.
+
+### Limit Settings
+- `purchaseLimit`: The maximum number of purchases allowed.
+- `searchFallLimit`: The maximum number of search failures allowed before taking action.
+- `maxPurchasesPerSearch`: The maximum number of purchases allowed per search.
+- `currentFailedSearches`: The current number of failed searches.
+- `currentPurchasesPerSearch`: The current number of purchases made per search.
+- `purchasePerSearchIntervalId`: The identifier of the inte
+
 ## Technologies Used
 
 - **Quasar Browser Extension**: The bot is developed using JavaScript and Vue.js with the Quasar framework, enabling seamless integration within the Fifa 23 Fut Web App.
